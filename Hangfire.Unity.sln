@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.27520.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hangfire.Unity", "src\Hangfire.Unity\Hangfire.Unity.csproj", "{05791F34-A9B8-42F3-A18B-4CDA7AF43307}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hangfire.Unity.Test", "test\Hangfire.Unity.Test.csproj", "{E5F55170-2896-4479-9278-B07540D3310C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hangfire.Unity.Test", "test\Hangfire.Unity.Test\Hangfire.Unity.Test.csproj", "{E5F55170-2896-4479-9278-B07540D3310C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
