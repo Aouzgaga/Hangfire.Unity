@@ -1,20 +1,22 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <Version>3.0.0</Version>
+    <Version>5.0.0</Version>
     <Title>Hangfire Unity Job activator</Title>
-    <PackageId>Hangfire.Unity</PackageId>
+    <PackageId>Hangfire.Unity5</PackageId>
     <PackageProjectUrl>http://hangfire.io/</PackageProjectUrl>
     <PackageLicenseUrl>https://raw.github.com/HangfireIO/Hangfire/master/LICENSE.md</PackageLicenseUrl>
     <PackageReleaseNotes>https://github.com/HangfireIO/Hangfire/releases</PackageReleaseNotes>
     <PackageTags>Hangfire Unity IoC</PackageTags>
-    <Copyright>Copyright © 2014-2018 Vincent Lainé and all contributors</Copyright>
+    <Copyright>Copyright © 2014-2019 Vincent Lainé and all contributors</Copyright>
     <Authors>Vincent Lainé</Authors>
     <Description>Unity IoC Container support for Hangfire (background job system for ASP.NET applications).</Description>
   </PropertyGroup>
   
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;net461</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Product>Hangfire.Unity5</Product>
   </PropertyGroup>
 
   <ItemGroup>
